@@ -1,0 +1,129 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+*{
+  font-family:"Quicksand",sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #2f3640;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  width: 350px;
+  padding: 20px;
+  background-color: #d1ebf9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.input-container{
+  display:flex;
+  width: 100%;
+  align-items: center;
+  border: 2px solid #70e6f3;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.cityinput{
+  flex: 1;
+  border: none;
+  outline: none;
+  font: 16px;
+  height: 30px;
+padding: 10px;
+background-color:#cae7f7 ;
+border-radius: 12px;
+}
+.search-icon{
+  padding: 10px;
+  height: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color:#d1ebf9;
+}
+.image{
+text-align: center;
+height: 150px;
+margin-bottom: 10px;
+}
+.image img {
+  width: 170px;
+  height: 170px;
+}
+.temp,
+.location,
+.country{
+padding-top:5px;
+font-size: 40px;
+text-align: center;
+text-transform:uppercase;
+color: #333;
+}
+.temp{
+  font-weight: 500;
+}
+.location{
+  font-weight: 400;
+  font-size: 41px;
+  color: #bb9f52;
+}
+.country{
+  font-size: 18px;
+  font-weight:600;
+  color: #888;
+}
+.cord{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  gap: 10px;
+}
+.cord div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.cord div span{
+  font-size: 14px;
+}
+.humidity-percent,
+.Wind-percent,
+.cord div span:nth-child(2){
+  font-weight:bold;
+  padding-top: 5px;
+  color: #666;
+  font-size: 18px;
+}
+.data-container{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.element{
+  text-align: center;
+}
+.icon{
+  width: 50px;
+  height: 50px;
+  
+}
+.text{
+  font-size: 15px;
+  color: #888;
+}
+.Loading-message,
+.city-Not-found,
+.error-message {
+margin-top: 10px;
+color: #888;
+font-size: 25px;
+font-weight: 400;
+text-align: center;
+}
